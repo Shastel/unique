@@ -1,0 +1,23 @@
+{
+  "name": "unique",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "test:watch": "npm run test -- --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shastel/unique.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shastel/unique/issues"
+  },
+  "homepage": "https://github.com/Shastel/unique#readme",
+  "dependencies": {
+    "mocha": "^6.2.0"
+  }
+}
