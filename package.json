@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js",
-    "test:watch": "npm run test -- --watch" 
+    "test:watch": "npm run test -- --watch",
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shastel/unique.git"
+  },
+  "engines": {
+    "node": "<=10"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +22,8 @@
   },
   "homepage": "https://github.com/Shastel/unique#readme",
   "dependencies": {
-    "mocha": "^6.2.0"
+    "colors": "^1.4.0",
+    "mocha": "^6.2.0",
+    "semver": "^6.3.0"
   }
 }
