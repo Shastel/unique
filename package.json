@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Shastel/unique#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "semver": "^6.3.0"
   }
 }
